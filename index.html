@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaylan Reddi — Web Developer</title>
+<meta name="description" content="Kaylan Reddi, Web Developer — portfolio of front-end projects.">
+
+<!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="navbar" id="mainNav">
+    <div class="container nav-inner">
+      <a class="navbar-brand" href="#home">Kaylan<span class="accent">.</span></a>
+
+      <!-- Desktop nav -->
+      <ul class="navbar-nav-desktop">
+        <li><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About Me</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Mobile nav: CSS-only, no JavaScript -->
+      <details class="navbar-mobile">
+        <summary class="navbar-toggler-native" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </summary>
+        <ul class="navbar-nav-mobile">
+          <li><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About Me</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </details>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="home" class="hero d-flex align-items-center">
+    <div class="hero-overlay"></div>
+    <div class="container position-relative text-center">
+      <p class="hero-eyebrow">Portfolio</p>
+      <h1 class="hero-title">I am Kaylan Reddi.</h1>
+      <p class="hero-sub">Web Developer</p>
+      <a href="#projects" class="btn btn-hero mt-4">See my work</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section-about">
+    <div class="container">
+      <div class="about-card">
+        <div class="row g-0">
+          <div class="col-lg-4 about-left">
+            <img src="images/Profile Picture.jpeg" alt="Portrait of Kaylan Reddi" class="about-photo">
+            <ul class="about-details list-unstyled">
+              <li><i class="bi bi-person"></i> Kaylan Reddi</li>
+              <li><i class="bi bi-briefcase"></i> Web Developer</li>
+              <li><a href="tel:+27815086059"><i class="bi bi-telephone"></i> 081 508 6059</a></li>
+              <li><a href="mailto:kreddi4u@gmail.com"><i class="bi bi-envelope"></i> kreddi4u@gmail.com</a></li>
+            </ul>
+            <div class="about-badges">
+              <span class="badge skill-badge">HTML5</span>
+              <span class="badge skill-badge">CSS3</span>
+              <span class="badge skill-badge">Bootstrap</span>
+              <span class="badge skill-badge">JavaScript</span>
+              <span class="badge skill-badge">Git &amp; GitHub</span>
+              <span class="badge skill-badge">Responsive Design</span>
+            </div>
+          </div>
+          <div class="col-lg-8 about-right">
+            <span class="label-pill">About me</span>
+            <p class="about-copy">
+              I'm a web developer who enjoys turning static designs into responsive, working
+              interfaces. Most of my practice comes from rebuilding real-world sites — streaming
+              platforms, video apps, landing pages — to understand how layout, spacing, and
+              interaction actually hold together at every screen size. I care about clean
+              markup, readable CSS, and pages that feel considered rather than assembled. Right
+              now I'm building out this portfolio project by project, and looking for
+              opportunities to keep learning on real briefs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section-projects">
+    <div class="container">
+      <div class="section-heading text-center">
+        <span class="label-pill">Projects</span>
+        <h2>Selected work</h2>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-lg-4 col-md-6">
+          <article class="project-card">
+            <img src="images/Tesla Clone.jpeg" class="project-banner" alt="Preview of the Tesla landing page clone" loading="lazy">
+            <div class="project-body">
+              <h3 class="project-title">Tesla Clone</h3>
+              <p class="project-sub">Built with HTML and CSS</p>
+              <div class="project-actions">
+                <a href="https://sweet-bonbon-f3a277.netlify.app/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">View Website</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm icon-btn" aria-label="View code for Tesla Clone"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <article class="project-card">
+            <img src="images/Netflix Clone.jpeg" class="project-banner" alt="Preview of the Netflix landing page clone" loading="lazy">
+            <div class="project-body">
+              <h3 class="project-title">Netflix Clone</h3>
+              <p class="project-sub">Built with HTML and CSS</p>
+              <div class="project-actions">
+                <a href="https://kaylanreddi.netlify.app/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">View Website</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm icon-btn" aria-label="View code for Netflix Clone"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <article class="project-card">
+            <img src="images/Moontube Clone.jpeg" class="project-banner" alt="Preview of MoonTube, a YouTube-style video platform clone" loading="lazy">
+            <div class="project-body">
+              <h3 class="project-title">MoonTube</h3>
+              <p class="project-sub">YouTube clone — Built with HTML, CSS &amp; Bootstrap</p>
+              <div class="project-actions">
+                <a href="https://kaylanreddi-moontube.netlify.app/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">View Website</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm icon-btn" aria-label="View code for MoonTube"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <article class="project-card">
+            <img src="images/Bloom Cafe.jpeg" class="project-banner" alt="Preview of Bloom Cafe, a restaurant landing page concept" loading="lazy">
+            <div class="project-body">
+              <h3 class="project-title">Bloom Cafe</h3>
+              <p class="project-sub">Restaurant landing page — HTML &amp; Bootstrap</p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm">View Website</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm icon-btn" aria-label="View code for Bloom Cafe"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <article class="project-card">
+            <img src="images/Pulsefit Landing Page.jpeg" class="project-banner" alt="Preview of PulseFit, a fitness app marketing landing page" loading="lazy">
+            <div class="project-body">
+              <h3 class="project-title">PulseFit</h3>
+              <p class="project-sub">Fitness app landing page — HTML &amp; Bootstrap</p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm">View Website</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm icon-btn" aria-label="View code for PulseFit"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <article class="project-card">
+            <img src="images/Nimbus Notes.jpeg" class="project-banner" alt="Preview of Nimbus Notes, a minimal note-taking app interface" loading="lazy">
+            <div class="project-body">
+              <h3 class="project-title">Nimbus Notes</h3>
+              <p class="project-sub">Note-taking app UI — HTML &amp; CSS</p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm">View Website</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm icon-btn" aria-label="View code for Nimbus Notes"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-contact">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2><span class="label-pill heading-pill">Let's connect</span></h2>
+        <p class="contact-invite">Have a project in mind or just want to say hi? Pick how you'd like to reach me.</p>
+      </div>
+
+      <!-- Contact options: click to choose call or email (no JavaScript) -->
+      <div class="contact-choice text-center">
+        <details class="choice-menu">
+          <summary class="btn btn-hero">Contact me</summary>
+          <ul class="choice-list">
+            <li>
+              <a href="tel:+27815086059">
+                <i class="bi bi-telephone"></i>
+                <span><strong>Call me</strong><small>081 508 6059</small></span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:kreddi4u@gmail.com?subject=Portfolio%20enquiry">
+                <i class="bi bi-envelope"></i>
+                <span><strong>Email me</strong><small>Opens your email app</small></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kreddi4u@gmail.com&amp;su=Portfolio%20enquiry" target="_blank" rel="noopener">
+                <i class="bi bi-google"></i>
+                <span><strong>Email in Gmail</strong><small>Opens Gmail in your browser</small></span>
+              </a>
+            </li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="social-row text-center">
+        <a href="https://www.instagram.com/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/" class="social-icon" aria-label="GitHub" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/KaylanReddi-7391502a6" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+      <!-- Form opens the visitor's email app with their message filled in -->
+      <form class="contact-form" action="mailto:kreddi4u@gmail.com?subject=Portfolio%20enquiry" method="post" enctype="text/plain">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="fEmail" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="fEmail" name="Email" required>
+          </div>
+          <div class="col-md-6">
+            <label for="fName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="fName" name="Name" required>
+          </div>
+          <div class="col-12">
+            <label for="fSubject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="fSubject" name="Subject" required>
+          </div>
+          <div class="col-12">
+            <label for="fMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="fMessage" name="Message" rows="5" required></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-hero">Send Message</button>
+            <p class="form-note">This opens your email app with your message ready to send.</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container text-center">
+    <p class="mb-0">Developed by Kaylan Reddi using Bootstrap, for portfolio purposes.</p>
+  </div>
+</footer>
+
+</body>
+</html>
